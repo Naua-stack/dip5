@@ -1,0 +1,30 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+
+}
+.list-body {
+  height: 100%;
+  background-color:    #17408B; 
+}
+.list.is-success {
+  background: #f2f7fa;
+}
+.list .nav, .list.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.image-container{
+  margin-bottom: 20px;
+}
+
+.title has-text-white{
+  margin-top: 20px;
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}

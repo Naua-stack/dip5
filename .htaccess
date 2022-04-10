@@ -1,0 +1,8 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d       
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite Rule, redirecionar todas as requests para o index.php 
+RewriteRule ^(.+)$ index.php?router=$1 [QSA,L]
